@@ -29,7 +29,7 @@ def createVersionFile(){
     HASH = "export const HASH = '${GIT_COMMIT_SHORT}';"
     BUILDDATE = "export const BUILDDATE = '${BUILD_DATE}';"
     BUILDTIME = "export const BUILDTIME = '${BUILD_TIME}';"
-    VTAG = "export const VTAG = '${GITTAG}';"
+    VTAG = "export const VTAG = '${BRANCH}';"
 
     STR = VTAG+'\n'+"\n"+HASH+"\n"+BUILDDATE+"\n"+BUILDTIME
 
